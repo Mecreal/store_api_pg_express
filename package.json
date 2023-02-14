@@ -1,5 +1,5 @@
 {
-  "name": "cours",
+  "name": "store_api_pg_express",
   "version": "1.0.0",
   "main": "server.js",
   "author": "Hamza abouabid <hamza.abouabid@gmail.com>",

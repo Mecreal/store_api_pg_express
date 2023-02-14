@@ -10,7 +10,9 @@ const address: string = '0.0.0.0:' + port;
 
 app.use(bodyParser.json());
 app.get('/', function (req: Request, res: Response) {
-  res.send('Hello World!');
+  res.json({
+    message: 'Hello World!'
+  });
 });
 app.listen(port, function () {
   console.log(`starting app on: ${address}`);
