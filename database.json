@@ -1,0 +1,18 @@
+{
+  "dev": {
+    "driver": "pg",
+    "host": "localhost",
+    "database": "shopy",
+    "user": "myuser",
+    "password": "147258Cbh",
+    "port": "5432"
+  },
+  "test": {
+    "driver": "pg",
+    "host": "localhost",
+    "database": "shopy_test",
+    "user": "myuser",
+    "password": "147258Cbh",
+    "port": "5432"
+  }
+}
